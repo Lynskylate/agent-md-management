@@ -1,10 +1,27 @@
 {
-  "name": "agent-md-management",
+  "name": "@lynskylate/agent-md-management",
   "version": "1.0.0",
-  "description": "Tools to maintain and improve AGENTS.md files — audit quality, capture session learnings, and keep project memory current.",
+  "description": "Pi plugin: Tools to maintain and improve AGENTS.md files — audit quality, capture session learnings, and keep project memory current.",
   "keywords": ["pi-package", "agents-md", "project-context", "maintenance"],
-  "author": "Pi Community",
+  "author": {
+    "name": "lynskylate",
+    "url": "https://github.com/Lynskylate"
+  },
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lynskylate/agent-md-management"
+  },
+  "files": [
+    "extensions/",
+    "skills/",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
   "pi": {
     "extensions": ["./extensions"],
     "skills": ["./skills"]
