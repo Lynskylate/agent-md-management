@@ -1,0 +1,12 @@
+{
+  "name": "agent-md-management",
+  "version": "1.0.0",
+  "description": "Tools to maintain and improve AGENTS.md files — audit quality, capture session learnings, and keep project memory current.",
+  "keywords": ["pi-package", "agents-md", "project-context", "maintenance"],
+  "author": "Pi Community",
+  "license": "Apache-2.0",
+  "pi": {
+    "extensions": ["./extensions"],
+    "skills": ["./skills"]
+  }
+}
