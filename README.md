@@ -40,7 +40,7 @@ Reviews the current session for missing context, patterns, commands, and gotchas
 Install from npm:
 
 ```bash
-pi install npm:@lynskylate/agent-md-management
+pi install npm:agent-md-management
 ```
 
 Install from GitHub:
